@@ -1,4 +1,4 @@
-IMAGE_NAME:jkaninda/laravel-php-fpm
+IMAGE_NAME:AbimaelCiro/laravel-php-fpm
 build-8.1:
 	docker buildx build -f src/docker/8.1/Dockerfile -t ${IMAGE_NAME}:8.1 .
 build-8.2:
